@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Javascript</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"></a>
+            <h1 class="header-title">
+                Тренировка Javascript
+            </h1>
+        </div>
+    </header>
+    <section class="section-tab">
+        <div class="container">
+            <h2 class="section-title">
+                1. Табы
+            </h2>
+            <div class="tab">
+                <div id="tabs-btn">
+                    <button type="button" class="tab__btn active" data-btn="1">
+                        Жираф
+                    </button>
+                    <button type="button" class="tab__btn" data-btn="2">
+                        Олень
+                    </button>
+                    <button type="button" class="tab__btn" data-btn="3">
+                        Козочка
+                    </button>
+                    <button type="button" class="tab__btn" data-btn="4">
+                        Бурундук
+                    </button>
+                </div>
+                <div id="tabs-contents">
+                    <div class="tab-content active" data-content="1">
+                        <h2 class="tab-content__title">
+                            Жираф
+                        </h2>
+                        <p class="tab-content__text">
+                            Самцы жирафа достигают высоты до 5,5—6,1 м (около 1/3 длины составляет шея) и весят до 900—1200 кг. Самки, как правило, немного меньше и легче.
+                        </p>
+                        <p class="tab-content__text">
+                            Шея у жирафов необычайно длинная, и это несмотря на то, что у них, как и почти у всех других млекопитающих, лишь семь шейных позвонков. Большой рост увеличивает нагрузку на систему кровообращения, прежде всего в отношении кровоснабжения головного мозга.                        </p>
+                    </div>
+                    <div class="tab-content" data-content="2">
+                        <h2 class="tab-content__title">
+                            Олень
+                        </h2>
+                        <p class="tab-content__text">
+                            Оле́невые, или оле́ньи, или оле́ни (лат. Cervidae), — семейство парнокопытных млекопитающих, содержащее 51 современный вид[1].
+                        </p>
+                        <p class="tab-content__text">
+                            Величина оленевых варьируется между величиной зайца (пуду) и лошади (лось). Характерны разветвлённые рога, которые имеются в наличии только у самцов.
+                            Исключениями являются только водяной олень, у которого вообще нет рогов, и северный олень, у которого рога носят оба пола.
+                            Рога сбрасываются каждый год и вырастают заново.
+                        </p>
+                    </div>
+                    <div class="tab-content" data-content="3">
+                        <h2 class="tab-content__title">
+                            Козочка
+                        </h2>
+                        <p class="tab-content__text">
+                            Домашняя коза (лат. Capra hircus) — домашнее животное, вид парнокопытных из рода горные козлы (Capra) семейства полорогих.
+                        </p>
+                        <p class="tab-content__text">
+                            Коза — одно из первых прирученных животных. Одомашнена на Ближнем Востоке, приблизительно 9 тыс. лет назад. Предком домашней козы был дикий безоаровый козёл (Capra hircus aegagrus), до сегодняшнего дня встречающийся от греческих островов в Эгейском море через Малую Азию, Армянское нагорье и Переднюю Азию до Средней Азии.
+                        </p>
+                    </div>
+                    <div class="tab-content" data-content="4">
+                        <h2 class="tab-content__title">
+                            Бурундук
+                        </h2>
+                        <p class="tab-content__text">
+                            Бурундуки́ (лат. Tamias, от др.-греч. τᾰμίᾱς «заведующий хозяйством», «эконом») — род грызунов из семейства беличьих.
+                        </p>
+                        <p class="tab-content__text">
+                            В зависимости от вида масса бурундука может составлять от 30 до 120 г, а размер — от 5 до 15 см при длине хвоста от 7 до 12 см.
+                            Наиболее заметный признак всех видов — пять тёмных полосок вдоль спины, разделённые белыми или серыми полосками.
+                            Окраска других участков тела — красно-бурая или серо-бурая.
+                            Так как это является общей чертой всех бурундуков, отдельные виды на первый взгляд трудноразличимы.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-order">
+        <div class="container">
+            <h2 class="section-title">
+                2. Модальное окно
+            </h2>
+            <button id="modal-btn-open" type="button">
+                Вызвать дождь
+            </button>
+        </div>
+    </section>
+    <section class="section-slider">
+        <div class="container">
+            <h2 class="section-title">
+                3. Слайдер
+            </h2>
+            <div class="slider">
+                <div class="slides">
+                    <button id="slider-prev" class="slider-prev slider-btn"></button>
+                    <div class="slide active">
+                        <img src="img/pexels-emiliano-arano-1295138.jpg" alt="arano" class="slide__img">
+                    </div>
+                    <div class="slide">
+                        <img src="img/pexels-pixabay-247431.jpg" alt="pixabay" class="slide__img">
+                    </div>
+                    <div class="slide">
+                        <img src="img/pexels-snapwire-6992.jpg" alt="snapwire" class="slide__img">
+                    </div>
+                    <button id="slider-next" class="slider-btn slider-next"></button>  
+                    <div class="dot__btns">
+                        <span class="dot__btn active"></span>
+                        <span class="dot__btn"></span>
+                        <span class="dot__btn"></span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer-title section-title">
+                Ну, что поделать, если мне все это удалось! 
+            </h2>
+        </div>
+    </footer>
+    <div id="wrapper-modal">
+        <div id="modal-window">
+                <button id="modal-window-btn" type="button" value="close">X</button>
+            <div class="window-content">
+                <h2 class="window-content__title">
+                    Немного о дожде
+                </h2>
+                <p class="window-content__text">
+                    До́ждь — атмосферные осадки, выпадающие из облаков в виде капель жидкости со средним диаметром от 0,5 до 6—7 мм[1].
+                </p>
+                <p class="window-content__text">
+                    Осенние дожди. Южная Эстония
+                </p>
+                <p class="window-content__text">
+                    Летний дождь в Санкт-Петербурге
+                    Жидкие осадки с меньшим диаметром капель называются моросью[2]. Капли с диаметром больше 6—7 мм разбиваются в процессе падения из облаков на меньшие капли,
+                    поэтому даже при сильнейшем ливне диаметр капель не превышает 6—7 мм. Интенсивность дождя обычно составляет от 0,25 мм/ч (моросящий дождь) до 100 мм/ч (ливень)[1].
+                    В Европе самый сильный ливень с интенсивностью 15,5 мм/мин был зафиксирован в 1920 году в Германии[2].
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

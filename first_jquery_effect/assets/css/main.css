@@ -1,0 +1,150 @@
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+/*Modal*/
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-wrapper.active {
+    display: block;
+}
+
+.form-modal__close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    color: #fd7e14;
+    font-size: 20px;
+}
+
+.form-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54);
+    background: #fff;
+    padding: 40px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.form-modal__input {
+    border-radius: 5px;
+    border: 1px solid #797979;
+    font-family: inherit;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+/*Hamburger*/
+
+.mobile-submenu {
+    display: none;
+
+}
+
+.submenu {
+    cursor: pointer;
+}
+
+.submenu:hover {
+    color: #fff;
+}
+
+.menu-list a {
+    color: #000;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 20px;
+}
+
+.menu-list__item {
+    margin-bottom: 10px;
+    color: #000;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 20px;
+}
+
+.menu-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.mobile-menu {
+    margin-top: 12px;
+    background:rgba(94, 94, 94, 0.5);
+    padding: 15px;
+    border-radius:10px;
+    border:1px solid #fd7e14;
+    display: none;
+
+}
+
+.mobile-menu__close {
+    border: none;
+    background:none;
+    color: #fd7e14;
+    font-size: 20px;
+    position:absolute;
+    top: 3px;
+    right: 20px;
+}
+
+/*Thanks*/
+
+.thanks-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.thanks-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 50px 100px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54);
+}
+
+.thanks-content__title {
+    color: #fd7e14;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.thanks-content__text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
